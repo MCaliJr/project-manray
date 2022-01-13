@@ -1,4 +1,4 @@
-##### Propozycja projektu - SHT - SafeHypeTrade marketplace dla hypebeastów (coś a'la Vinted tylko skupione na bezpieczeństwie użytkowników):
+# Propozycja projektu - SHT - SafeHypeTrade marketplace dla hypebeastów (coś a'la Vinted tylko skupione na bezpieczeństwie użytkowników):
 
 **Node.js / Express**
 
@@ -42,17 +42,17 @@ Sugerujemy w czasie działu 3 implementować część back-endową, a wczasie dz
 Ale to Wy odpowiadacie za powodzenie projektu, więc podejmujcie decyzje, korzystajcie z porad bardziej doświadczonych
 i zróbcie coś niesamowitego! W trakcie trwania projektu odbędą się dwie prezentacje (z częstotliwością jak dotychczas).
 
-### Projekt końcowy — aplikacja webowa
+## Projekt końcowy — aplikacja webowa
 
 > **_Tutaj mniej więcej wizję można przedstawić._**
 
 > **_Kilka zdań i opis dlaczego takie coś ma sens._**
 
-### SafeHypeTrade — Założenia projektowe
+## SafeHypeTrade — Założenia projektowe
 
 > **_Liczy się czas „time to market”, dlatego na samym początku, określcie główne funkcjonalności, które apka potrzebuje._**
 
-<!-- ### Wymagania
+<!-- ## Wymagania
 
 Klient wraz z analitykiem biznesowym spisali podstawowe wymagania co do projektu.
 Jednakże nie krępujcie się przed ich doprecyzowaniem / zmianami, czy też ulepszeniami.
@@ -60,7 +60,7 @@ To Wy jesteście profesjonalistami w swoim fachu i Klient ufa, że zrobicie wszy
 Jeśli uważacie, że jakichś informacji Wam brakuje, najlepiej, jeśli Product Owner spróbuje uzupełnić luki w wymaganiach wraz z klientem.
 Wymagania podzielono na dwie sekcje. Aplikację dla widza i panel administracyjny. -->
 
-<!-- ##### Prototyp interfejsu użytkownika
+<!-- ### Prototyp interfejsu użytkownika
 
 Niestety współpraca z grafikiem projektującym interfejs nie układała się najlepiej i jego praca nie została skończona.
 Wasz zespół zobowiązał się do pokrycia wymaganych funkcjonalności, chociaż nie na wszystko znajdziecie projekty interfejsu.
@@ -68,7 +68,7 @@ Możecie sami wykonać projekty ekranów i/lub od razu implementować. Warto wzo
 Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB082yd/CodersCamp2020.Project.FullStack-Node-React.Cinema?node-id=4412%3A3065
  -->
 
-##### Wymagania funkcjonalne:
+### Wymagania funkcjonalne:
 
 > **_Do modyfikacji / uzupełnienia!!!_**
 
@@ -85,9 +85,9 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 1. Klient powinien zostać poinformowany o statusie swojej płatności w systemie.
 1. Klient powinien otrzymać bilet na podany przy zakupie / rejestracji adres email.
 
-#### Panel Administracyjny (zarządzanie filmami, planowanie repertuaru, sale kinowe)
+### Panel Administracyjny (zarządzanie użytkownikami, planowanie widoku, podgląd revenue)
 
-##### Wymagania funkcjonalne:
+#### Wymagania funkcjonalne:
 
 > **_Do modyfikacji / uzupełnienia!!!_**
 
