@@ -109,7 +109,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
 
-> **_Jak macie pomysły na więcej niż tutaj to proszę bardzo_**
+> **_Jak macie pomysły na więcej niż tutaj to proszę bardzo 🔥_**
 
 1. Integracja z zewnętrznym systemem płatności — np. PayU (wykorzystać Sandbox, który umożliwia testowanie płatności bez prawdziwych transakcji)
 1. Sprawdzanie biletów — generowanie kodu QR z zakupionym biletem. Bilet jest „sprawdzony” po zeskanowaniu kodu QR telefonem.
