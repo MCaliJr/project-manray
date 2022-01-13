@@ -70,7 +70,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 
 ##### Wymagania funkcjonalne:
 
-> **_Do uzupełnienia!!!_**
+> **_Do modyfikacji / uzupełnienia!!!_**
 
 1. Klient może zarejestrować się w systemie, podając imię, nazwisko, hasło i adres e-mail.
 1. Klient może zalogować się w systemie, podając adres e-mail i hasło.
@@ -89,7 +89,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 
 ##### Wymagania funkcjonalne:
 
-> **_Do uzupełnienia!!!_**
+> **_Do modyfikacji / uzupełnienia!!!_**
 
 1. Administrator wprowadza informację o placówkach w sieci kin. Sieć ma zamiar posiadać Kina w różnych miastach na całym świecie.
    Dlatego konieczne jest, aby prowadzić ewidencję Kin sieci. Kino musi mieć swój unikalny numer identyfikacyjny. Każda placówka ma określony adres i godziny otwarcia.
