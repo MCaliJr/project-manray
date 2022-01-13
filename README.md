@@ -44,12 +44,11 @@ i zróbcie coś niesamowitego! W trakcie trwania projektu odbędą się dwie pre
 
 ### Projekt końcowy — aplikacja webowa
 
-**Tutaj mniej więcej wizję można przedstawić.**
-**Kilka zdań i opis dlaczego takie coś ma sens.**
+> **_Tutaj mniej więcej wizję można przedstawić._** > **_Kilka zdań i opis dlaczego takie coś ma sens._**
 
 ### SafeHypeTrade — Założenia projektowe
 
-**Liczy się czas „time to market”, dlatego na samym początku, określcie główne funkcjonalności, które apka potrzebuje.**
+> **_Liczy się czas „time to market”, dlatego na samym początku, określcie główne funkcjonalności, które apka potrzebuje._**
 
 <!-- ### Wymagania
 
@@ -69,7 +68,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 
 ##### Wymagania funkcjonalne:
 
-**Do uzupełnienia!!!**
+> **_Do uzupełnienia!!!_**
 
 1. Klient może zarejestrować się w systemie, podając imię, nazwisko, hasło i adres e-mail.
 1. Klient może zalogować się w systemie, podając adres e-mail i hasło.
@@ -88,7 +87,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 
 ##### Wymagania funkcjonalne:
 
-**Do uzupełnienia!!!**
+> **_Do uzupełnienia!!!_**
 
 1. Administrator wprowadza informację o placówkach w sieci kin. Sieć ma zamiar posiadać Kina w różnych miastach na całym świecie.
    Dlatego konieczne jest, aby prowadzić ewidencję Kin sieci. Kino musi mieć swój unikalny numer identyfikacyjny. Każda placówka ma określony adres i godziny otwarcia.
@@ -108,7 +107,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
 
-**Jak macie pomysły na więcej niż tutaj to proszę bardzo**
+> **_Jak macie pomysły na więcej niż tutaj to proszę bardzo_**
 
 1. Integracja z zewnętrznym systemem płatności — np. PayU (wykorzystać Sandbox, który umożliwia testowanie płatności bez prawdziwych transakcji)
 1. Sprawdzanie biletów — generowanie kodu QR z zakupionym biletem. Bilet jest „sprawdzony” po zeskanowaniu kodu QR telefonem.
