@@ -48,7 +48,7 @@ i zróbcie coś niesamowitego! W trakcie trwania projektu odbędą się dwie pre
 
 > **_Kilka zdań i opis dlaczego takie coś ma sens._**
 
-## SafeHypeTrade — Założenia projektowe
+## SafeHypeTrade — Założenia projektowe:
 
 > **_Liczy się czas „time to market”, dlatego na samym początku, określcie główne funkcjonalności, które apka potrzebuje._**
 
@@ -85,7 +85,7 @@ Projekt grafika znajdziecie tutaj: https://www.figma.com/file/cuKLOWensUxkq5dYB0
 1. Klient powinien zostać poinformowany o statusie swojej płatności w systemie.
 1. Klient powinien otrzymać bilet na podany przy zakupie / rejestracji adres email.
 
-### Panel Administracyjny (zarządzanie użytkownikami, planowanie widoku, podgląd revenue)
+### Panel Administracyjny (zarządzanie użytkownikami, planowanie widoku, podgląd revenue):
 
 #### Wymagania funkcjonalne:
 
