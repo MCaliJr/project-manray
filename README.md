@@ -44,7 +44,9 @@ i zróbcie coś niesamowitego! W trakcie trwania projektu odbędą się dwie pre
 
 ### Projekt końcowy — aplikacja webowa
 
-> **_Tutaj mniej więcej wizję można przedstawić._** > **_Kilka zdań i opis dlaczego takie coś ma sens._**
+> **_Tutaj mniej więcej wizję można przedstawić._**
+
+> **_Kilka zdań i opis dlaczego takie coś ma sens._**
 
 ### SafeHypeTrade — Założenia projektowe
 
