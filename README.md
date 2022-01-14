@@ -44,13 +44,54 @@ i zróbcie coś niesamowitego! W trakcie trwania projektu odbędą się dwie pre
 
 ## Projekt końcowy — aplikacja webowa
 
-> **_Tutaj mniej więcej wizję można przedstawić._**
+Platforma, której celem jest poprawa procesu wtórnego handlu ubraniami.
+Pozwala na realizację transakcji pomiędzy dwiema stronami w sposób **bezpieczny**. To znaczy, że to nie klienci muszą zastanawiać się, czy przypadkiem po drugiej stronie nie ma oszusta, a sam system jest w pewien sposób odporny na znaczną część podejrzanych działań.
 
-> **_Kilka zdań i opis dlaczego takie coś ma sens._**
+Analizując feedback społeczny dotyczący mediów sprzedażowych takich jak grupy Facebookowe oraz Vinted można zauważyć znaczny poziom niezadowolenia szczególnie wśród osób zajmujących się handlem rzeczami o stosunkowo wysokiej wartości. Narażeni są oni bowiem na kontakt z osobami chcącymi oszukać / wyłudzić rzecz albo pieniądze. Dodatkowo po fakcie nieudanej transakcji obsługa klienta w wielu przypadkach jest w znacznym stopniu mało skuteczna, często też ostatecznie podejmowane są przez nich złe decyzje.
+
+Chcąc podejść do tematu w sposób systemowy należałoby stworzyć możliwość przeprowadzenia bezpiecznej transakcji wyłączając oszustów z obiegu. Aby tego dokonać należałoby podjąć następujące kroki:
+
+- Wymusić na użytkownikach obowiązkowy ID Check (wykonanie zdjęcia wraz z dowodem). Będzie to miało następujący wpływ – ludzie wiedząc, że ich dane są w systemie nie będą tak chętni do nieuczciwych zachowań, ponieważ będą mogli zostać pociągnięci do odpowiedzialności, oraz osoba, której konto zostało zablokowane nie będzie mogła w prosty sposób na platformę wrócić.
+
+- Oprzeć proces na ludziach wiarygodnych (potwierdzonych swoją historią transakcji lub poleceniem od sprawdzonych użytkowników)
+  Osoby wykonujące transakcje w sposób bezproblemowy będą zyskiwały pozytywne oceny, które potem będą znaczące pod względem dalszej funkcjonalności użytkownika w całym procesie.
+
+- Zastąpić niekoniecznie kompetentne osoby pracujące w obsłudze klienta i również zajmujące się rozstrzyganiem sporów samymi użytkownikami.
 
 ## SafeHypeTrade — Założenia projektowe:
 
 > **_Liczy się czas „time to market”, dlatego na samym początku, określcie główne funkcjonalności, które apka potrzebuje._**
+
+Przykładowy proces transakcji (sprzedaż):
+
+1. Osoba dowiaduje się o istnieniu platformy i postanawia ją wypróbować. Wchodzi na stronę i zakłada konto. Konto przed odblokowaniem jakiejkolwiek funkcjonalności musi zostać potwierdzone tzn. Osoba musi wysłać zdjęcie ze swoim dowodem, które zostanie potem sprawdzone przez firmę.
+1. Po zatwierdzeniu konto, osoba może wystawić przedmiot na sprzedaż. Typowy serwis tego typu tj. zdjęcia plus opis. Oczywiście każdy będzie miał swoją stronę profilową, gdzie pokazane są ogólne informację o niej (oczywiście wszystkie istotne dane wrażliwe są ukryte), widoczne są oceny, czy wszystkie przedmioty które sprzedaje.
+1. Po znalezieniu potencjalnego kupca strony zaczynają ze sobą rozmawiać. Ustalają wszystkie szczegóły, dogadują cenę. Może im się np. pojawiać dymek z checkpointami, które warto ustalić wcześniej. Potem, jeżeli ktoś ma takie życzenie może zaznaczyć w aplikacji, że chce, aby do tej rozmowy dolosowano trzecią stronę. Byłaby to osoba, która 1) Ma dużo pozytywnych opinii 2) W swojej historii transakcji np. zajmowała się już sprzedażą / kupnem rzeczy podobnej marki. Oczywiście wcześniej byłaby zbudowana baza osób, które zarówno chcą, jak i mają wystarczająco dobre recenzje, aby takie zadanie spełniać. Wówczas taka osoba miałaby dostęp do konwersacji, zostałaby do niej dołączona i mogłaby się wypowiedzieć w przypadku wątpliwości. Dodatkowo osoba ta sprawdzałaby, czy ogólne ustalenia wyglądają dobrze, ale też czy wrażenie, które robi każda ze stron wydaje się w porządku. W przypadku jakichkolwiek niejasności lub przypuszczeń, że jedna z osób przeprowadzających transakcję może próbować oszustwa, wówczas próbuje
+   a) doradzić drugiej stronie, która jest w porządku na temat decyzji
+   b) podjąć odpowiednie kroki np. oznaczając jako osobę podejrzaną.
+   Paragraf poświęcony stronie doradczej:
+   W zamian za wykonywanie funkcji na rzecz społeczności aplikacji, osoby miałyby dodatkowe benefity np. w postaci zbierania punktów, które można wykorzystać jako walutę do reklamowania swoich własnych aukcji lub obniżki cen poprzez wymianę punktów za złotówki w ramach jakiegoś przelicznika.
+1. Transakcja może przebiegać ostatecznie według dwóch schematów:
+   a) Przebiega bezproblemowo
+   Jeżeli podczas przeprowadzenia kupna / sprzedaży nie wynikną żadne nieprawidłowości, wówczas obie strony są usatysfakcjonowane. Mogą wystawić sobie wzajemnie ocenę, mogą też wystawić ocenę osobie, która pomogła im podczas ustaleń.
+   b) Jedna ze stron okazała się nie w porządku
+   W przypadku, gdy jedna ze stron okazała się oszustem, czyli np. w przypadku kupującego byłyby to następujące zachowanie:
+   - w jakiś sposób cofnęła wykonaną transakcję
+   - po odebraniu paczki wysłała do obsługi klienta, że paczka się nie zgadza z opisem; produkt jest wadliwy; produkt jest nieoryginalny i w związku z tym rząda zwrotu pieniędzy, mimo że produkt zgadza się z opisem na aukcji
+   - w ogóle nie wykonała transakcji (to akurat chciałbym rozwiązać systemowo w jakiś sposób)
+   - Itd.
+     W przypadku sprzedającego:
+   - nie wysłanie produktu, mimo otrzymania pieniędzy
+   - wysłanie produktu niezgodnego z opisem i zdjęciami na aukcji
+   - wysłanie innego produktu
+   - Itd.
+     Wówczas otwierana jest sprawa sporna, w której obie strony próbują dowieźć swojej racji. Teraz sytuacja w przypadku pociągnięcia do odpowiedzialności jednej ze stron w przypadku dużej wartości przedmiotu nie będzie problemem, ponieważ platforma posiada dostęp do dokumentu identyfikującego każdego użytkownika.
+     Sprawa sporna może być rozstrzygana w następujący sposób. Dobierane do danej sprawy byłyby osoby np. do liczby pięć. Osoby zajmujące się tą sprawą miałyby wgląd we wszystkie konwersacje oraz ustalenia sprawy, natomiast nie mogłyby zidentyfikować osób biorących w niej udział (aby zachować anonimowość oraz bezstronność osądzających). Po jakimś określonym czasie dochodziłoby do głosowania (dlatego nieparzysta liczba osób) zakończonego werdyktem.
+     1.Przeprowadzając transakcję w taki sposób osiągamy kilka istotnych benefitów względem istniejących już rozwiązań tzn.:
+     a) Posiadanie niezbędnych informacji na temat każdego użytkownika
+     b) Włączenie do procesu rozstrzygania sporów sprawdzone osoby ze środowiska, które mają wiedzę na temat sposobów oszukiwania, czy udawadniania racji jednej ze stron w tym segmencie.
+     c) Ogólne zaangażowanie społeczności platformy do oczyszczania bazy użytkowników z oszustów.
+     d) Ograniczenie rozwijania w nieskończoność działu obsługi klienta
 
 <!-- ## Wymagania
 
